@@ -28,6 +28,8 @@ Elle est développée en PHP avec le micro-framework Slim 4 et utilise une base 
 - POST /students : Ajoute un étudiant (JSON : { "name": "...", "email": "..." })
 - GET /grades : Liste toutes les notes
 - POST /grades : Ajoute une note (JSON : { "student_id": 1, "subject": "...", "grade": 15 })
+- PUT /grades/id : Modifie une note avec son ID (JSON : { "student_id": 1, "subject": "...", "grade": 15 })
+- DELETE /grades/id : Supprime une note
 
 ## Autheur
 
